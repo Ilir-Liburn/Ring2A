@@ -17,4 +17,4 @@ Brings language enhancements to the Ring2A by adding:
 
 * Update
 
-If you want to turn enitire list into array after adding elements to it, use ringvm_genarray function. Unless already generated, binarysearch function will do the same. Be careful: if you do this using Ring2A, and then you add elements and try to access them, you might get VM crashed or random data fetched due to flaw existing in Ring generally. Ring2A+ prevents such scenario because hybrid list/array gets list item if index is outside of internal array bounds. 
+If you want to turn enitire list into array after adding elements to it, use ringvm_genarray function. Unless already generated, binarysearch function will do the same. Be careful: if you do this using Ring2A, and then you add elements and try to access them, you might get VM crashed or random data fetched due to flaw existing in Ring originally. Ring2A+ prevents such scenario because hybrid list/array takes item from the list if index is outside of the internal array bounds. 
