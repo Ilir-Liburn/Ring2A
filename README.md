@@ -1,5 +1,5 @@
 # Ring2A
-Accelerated Ring 1.18 (on 1.17 distro - work in progress!) + language enhancements
+Accelerated Ring 1.18 (on 1.17 distro!) + language enhancements
 
 1. Run Backup script inside the Ring folder to make backup of the Ring executables, libraries, etc.
 2. Unzip archive matching your operating system to Ring folder (extract here)
